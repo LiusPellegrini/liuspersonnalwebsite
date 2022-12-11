@@ -26,12 +26,6 @@
 			])
 	}
 
-	const supprDoggo = async () =>{
-		const {data, error} = await supabase
-			.from('doggoDB')
-			.insert([
-		])
-	}
 </script>
 
 

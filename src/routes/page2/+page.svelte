@@ -37,12 +37,14 @@
 
 {#each doggoDB as { name, category, url }}
 	<Box>
-		<img src={url} alt="loading" width="450"/> <br>
+	<center>
+		<img style="max-width:100%"src={url} alt="loading" width="450"/> <br>
 		{name} <br>
 		{category}
+	</center>
 	</Box>
 {/each}
-
+<center>
 <div>
   <label for="fname">Doggo Name:</label><br>
   <input type="text" id="fname" name="fname" bind:value={doggoNameProposal}><br>
@@ -57,7 +59,7 @@
 		Propose a doggo
 	</span>
 </button>
-
+</center>
 
 <style>
 	section {

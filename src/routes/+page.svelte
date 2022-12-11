@@ -27,7 +27,7 @@
 		<h1>
 			<span>
 				<picture>
-					<img src={imageUrl} alt={imageAltText} />
+					<img style="max-width:100%" src={imageUrl} alt={imageAltText} />
 				</picture>
 			</span>
 		</h1>
